@@ -1,0 +1,21 @@
+#!/bin/bash
+echo "enter the day in the week"
+read day
+case $day in
+Sunday) echo "yes its Sunday"
+;;
+Monday) echo "yes its monday"
+;;
+Tuesday) echo "yes its Tuesday"
+;;
+Wednesday) echo "yes its Wednesday"
+;;
+Thursday) echo "yes its Thursday"
+;;
+Friday) echo "yes its Friday"
+;;
+Saturday) echo "yes its Saturday"
+;;
+*) echo "sorry invalid day"
+;;
+esac
